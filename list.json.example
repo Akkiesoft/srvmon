@@ -1,0 +1,30 @@
+{"servers":[
+  {
+    "type":"hplo100",
+    "ip":"192.168.20.51",
+    "username":"admin",
+    "password":"admin",
+    "enabled":"1"
+  },
+  {
+    "type":"hpoa",
+    "ip":"192.168.20.52",
+    "username":"Administrator",
+    "password":"password",
+    "enabled":"0"
+  },
+  {
+    "type":"hpilo",
+    "ip":"192.168.20.53",
+    "username":"Administrator",
+    "password":"password",
+    "enabled":"1"
+  },
+  {
+    "type":"dellidrac",
+    "ip":"192.168.20.54",
+    "username":"root",
+    "password":"calvin",
+    "enabled":"1"
+  }
+]}
