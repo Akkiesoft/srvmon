@@ -47,13 +47,16 @@ list.jsonには、"servers":[]の配列にサーバー情報を記述します�
     "enabled":"1"
   }
 ```
+
 * type: サーバーの種類を記述します。
+
 ```
 hplo100: HP Lights-Out 100
 hpilo: HP iLO 2/3
 hpoa: HP c-Class Onboard Administrator
 dellidrac: Dell iDRAC (iDRA6のみ対応)
 ```
+
 * ip: 接続先IPアドレス
 * username: 接続先ユーザー名
 * password: 接続先パスワード
