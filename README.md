@@ -20,6 +20,7 @@
 * HP c-Class Onboard Administrator (c3000/c7000)
 * HP Integrated Lights Out 2 / 3 (HP ProLiant G5〜G7サーバー)
 * Dell iDRAC 6 (Dell PowerEdge R610など)
+
 また、今後以下のサーバーに対応予定です。
 * HP Integrated Lights Out 4 (HP ProLiant Gen8サーバー)
 * Dell iDRAC 7 (Dell PowerEdge R620など)
