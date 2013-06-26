@@ -48,17 +48,19 @@ list.jsonには、"servers":[]の配列にサーバー情報を記述します�
   }
 ```
 * type: サーバーの種類を記述します。
-** hplo100: HP Lights-Out 100
-** hpilo: HP iLO 2/3
-** hpoa: HP c-Class Onboard Administrator
-** dellidrac: Dell iDRAC (iDRA6のみ対応)
+```
+hplo100: HP Lights-Out 100
+hpilo: HP iLO 2/3
+hpoa: HP c-Class Onboard Administrator
+dellidrac: Dell iDRAC (iDRA6のみ対応)
+```
 * ip: 接続先IPアドレス
 * username: 接続先ユーザー名
 * password: 接続先パスワード
 * enabled: 設定を有効にする場合は1。一時的に無効にしたい場合は0にします。
+
 ###取得されたデータの解説
-iLO2 サーバーに対して取得をした実行結果について解説します。
-ベンダーによって取得できるパラメータの数は異なります。
+iLO2 サーバーに対して取得をした実行結果について解説します。ベンダーによって取得できるパラメータの数は異なります。
 ```
     "fwIPAddress": iLO2のIPアドレス
     "result": 取得結果
