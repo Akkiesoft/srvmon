@@ -1,10 +1,16 @@
 <?php
+/*  PHPの実行ファイルパス  */
+$php_bin = '/usr/bin/php';
+
+/*  ベースとなるディレクトリ  */
+$basedir = '/var/www/html/srvmon/';
+
 /*  サーバー一覧  */
-$serverList = '/var/www/html/ilomon/list.json';
+$serverList = $basedir . 'list.json';
 
 /*  収集中の一時ファイル名  */
-$tmpfile = '/var/www/html/ilomon/serverinfo.json.tmp';
+$tmpfile = $basedir . 'serverinfo.json.tmp';
 
 /*  収集されたデータのファイル名  */
-$outpath = '/var/www/html/ilomon/serverinfo.json';
+$outpath = $basedir . 'serverinfo.json';
 ?>

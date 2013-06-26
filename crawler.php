@@ -24,7 +24,7 @@ foreach ($json['servers'] as $line) {
 
 	$server_json = json_encode($line);
 	$server_json = "\"" . preg_replace("/\"/", "'", $server_json) . "\"";
-	system(	"/usr/bin/php /var/www/html/ilomon/get_info.php " .
+	system(	$php_bin . $basedir . "get_info.php " .
 		$server_json .
 		" > /dev/null &");
 }
